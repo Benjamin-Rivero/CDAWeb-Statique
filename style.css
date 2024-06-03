@@ -1,0 +1,22 @@
+*{
+    font-family: Roboto;
+}
+
+header{
+display: flex;
+  justify-content: space-around;
+  background-color: #f59a24;
+}
+
+header img{
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    color: #169bd5;
+    font-size: 20px;
+  }
