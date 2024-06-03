@@ -1,22 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <section class="bienvenue">
-        <h1 class="titre-bienvenue">Bienvenue</h1>
-        <div class="cadre-bienvenue">
-            <p class="texte-bienvenue">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <button class="bouton-bienvenue">Nous contacter</button>
-        </div>
-    </section>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.jpg" />
+			<ul>
+				<li>Accueil</li>
+				<li>Services</li>
+				<li>Produits</li>
+				<li>Contact</li>
+			</ul>
+		</header>
+        <section class="bienvenue">
+            <h1 class="titre-bienvenue">Bienvenue</h1>
+            <div class="cadre-bienvenue">
+                <p class="texte-bienvenue">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <button class="bouton-bienvenue">Nous contacter</button>
+            </div>
+        </section>
+		<section>
+			<h2 class="contact text-center">CONTACTEZ-NOUS</h2>
+			<div class="backgroundcolor-grey form-section">
+				<img
+					class="image"
+					src="images\phone-contact.jpg"
+					alt="Image d'une femme souriante"
+				/>
+				<div class="form">
+					<h2 class="grey-text">Formulaire:</h2>
+					<form class="text-center" action="" method="post">
+						<div>
+							<input
+								class="form-div"
+								name="name"
+								type="text"
+								placeholder="Nom et prénom"
+								required
+							/>
+						</div>
+						<div>
+							<input
+								class="form-div"
+								name="mail"
+								type="mail"
+								placeholder="addresse@mail.com"
+								required
+							/>
+						</div>
+						<div>
+							<input
+								class="form-div"
+								name="subject"
+								type="text"
+								placeholder="objet de votre demande"
+								required
+							/>
+						</div>
+						<div class="form-radio">
+							<label>
+								<input
+									type="radio"
+									name="radio"
+									value="design"
+								/>Design
+							</label>
+							<label>
+								<input
+									type="radio"
+									name="radio"
+									value="web"
+								/>Web
+							</label>
+							<label>
+								<input
+									type="radio"
+									name="radio"
+									value="autre"
+								/>Autre
+							</label>
+						</div>
+						<div>
+							<select class="form-div" name="pays" required>
+								<option>France</option>
+								<option>Allemagne</option>
+								<option>Belgique</option>
+								<option>Espagne</option>
+							</select>
+						</div>
+						<div>
+							<textarea
+								class="form-div"
+								name="content"
+								required
+							></textarea>
+						</div>
+						<div>
+							<input type="checkbox" name="consent" required />
+							<label
+								>Je consens à ce que mes données soit
+								utilisées</label
+							>
+						</div>
+						<div>
+							<input
+								class="send-button"
+								type="submit"
+								value="ENVOYER"
+							/>
+						</div>
+					</form>
+				</div>
+				<div class="coordonnees text-center">
+					<h2>COORDONNEES</h2>
+					<i
+						class="fa-solid fa-location-dot fa-3x padding-coordonnees"
+					></i>
+					<p>123 avenues des Développeurs</p>
+					<p>12345 LA-VILLE-DU-WEB</p>
+					<i class="fa-solid fa-phone fa-3x padding-coordonnees"></i>
+					<p>01.02.03.04.05</p>
+					<i
+						class="fa-solid fa-envelope fa-3x padding-coordonnees"
+					></i>
+					<p>contact@compagny-design.com</p>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
