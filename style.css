@@ -50,6 +50,85 @@
     color: white;
 }
 
+
+.section-container {
+	margin-bottom: 50px;
+  }
+  
+  .section-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #E67E22
+  }
+  
+  .flipCard-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 70px;
+	margin-top: 20px;
+  }
+  
+  .flip {
+	max-width: 250px;
+	text-align: center;
+	padding: 5px;
+	background-color: #CACFD2 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+  }
+  .flip .fontawesome {
+	font-size: xx-large;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 60px;
+	color: white;
+	background: #6495ED;
+	padding: 10px;
+	border-radius: 50%;
+  }
+  
+  .flip p {
+	margin: 10px;
+	padding-top: 25px;
+	text-align: left;
+	color: #333;
+	font-size: 14px;
+  }
+  
+  
+  
+  .card-containers {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-top: 20px;
+  }
+  
+  .card {
+	width: 300px;
+	height: 280px;
+	background-color: #F5CBA7;
+	overflow: hidden;
+  }
+  .card-content p {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	color: #747171;
+  }
+  .card img {
+	width: 100%;
+	height: auto;
+  }
+  
+
+
 .contact {
 	color: #f59a24;
 	text-decoration: underline grey;
