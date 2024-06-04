@@ -65,6 +65,7 @@ iframe {
 
 #input_newsletter {
 	border: #f59a24 solid 2px;
+	width: 100%;
 }
 
 #instagram,
@@ -270,4 +271,16 @@ footer{
 
 footer ul {
     list-style: none;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	font-weight: 600;
 }
+
+footer form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-items: center;
+}
+
