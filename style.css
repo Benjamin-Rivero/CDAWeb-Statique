@@ -2,8 +2,13 @@
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-color: #f59a24;
+}
+
+li a {
+    text-decoration: none;
+    color: #169bd5;
 }
 
 .bienvenue {
@@ -249,6 +254,7 @@ header {
 
 header img {
 	width: 100px;
+    margin-left:-20%
 }
 
 header ul {
@@ -256,8 +262,8 @@ header ul {
 	gap: 20px;
 	list-style: none;
 	align-items: center;
-	color: #169bd5;
 	font-size: 20px;
+    margin-right: -16%;
 }
 
 body {
