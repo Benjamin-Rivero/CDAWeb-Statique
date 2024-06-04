@@ -263,3 +263,11 @@ header ul {
 body {
 	margin: 0 0 0 0;
 }
+
+footer{
+    color:white;
+}
+
+footer ul {
+    list-style: none;
+}
