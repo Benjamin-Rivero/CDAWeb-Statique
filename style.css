@@ -39,7 +39,8 @@ iframe{
 }
 
 #instagram, #facebook, #twitter{
-    width: 40px;
+    width: 60px;
+    max-height: 50px;
 }
 
 #submit_newsletter{
