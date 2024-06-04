@@ -280,6 +280,10 @@ iframe {
 	gap: 10px;
 }
 
+#newletter{
+	text-align: center;
+}
+
 #input_newsletter {
 	border: #f59a24 solid 2px;
 	width: 100%;
